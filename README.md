@@ -18,7 +18,7 @@ You can then launch the app locally with this command !
 
 This is the username and password to get through the login page. Please don't tell anyone, this is obviously really really well secured...
 
-### `How to use`
+## `How to use`
 
 Simply drag and drop champions into the role you want it to be. You can change the title of the team and add it to your list of teams. 
 This is only runtime saved.
