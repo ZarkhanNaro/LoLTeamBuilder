@@ -1,0 +1,164 @@
+
+.teamfield{
+    width: 80%;
+    height: 50%;
+    border-radius: 50px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    font-size: 25px;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px yellow;
+}
+
+.teamfield__icon {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+.teamfield__title{
+    color: white;
+    text-align: center;
+    align-items: center;
+    float: center;
+    display: flex;
+}
+
+.teamfield__title--text{
+    width: 30%;
+    font-size: 50px;
+}
+
+.teamfield__title--input{
+    font-size: 30px;
+}
+
+.teamfield__rolediv{
+    text-align: center;
+    height: 80%;
+    display: flex;
+}
+
+.teamfield__role{
+    width: 100%;
+    height: auto;
+}
+
+.teamfield__champion{
+    height: 100%;
+    color: white;
+}
+
+.championsfield{
+    width: 80%;
+    height: 50%;
+    border-radius: 50px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    font-size: 25px;
+    color: white;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px yellow;
+}
+
+.champions__single{
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+.championicon:hover {
+    box-shadow: inset 0 0 5px yellow;
+  }
+
+.championfield{
+    width: 100%;
+    height: 50%;
+}
+
+.championicon{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid yellow;
+}
+
+.championicon--text{
+    vertical-align: middle;
+}
+
+.dragactive{
+    box-shadow: inset 0 0 5px white;
+}
+
+.drag{
+    box-shadow: inset 0 0 5px yellow;
+}
+
+.button {
+    font-family: 'Marcellus SC', serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 15px; 
+    margin: 0px 10px;
+    background: #1e2328;
+    color: #cdbe91;
+    box-shadow: inset 0 0 2px #000000;
+    border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+    border-image-slice: 1;
+    border-width: 2px;
+  }
+  
+.button:hover {
+    text-shadow: 0 0 5px #ffffff80;
+    box-shadow: 0 0 8px 0 #ffffff50;
+    background: linear-gradient(to bottom, #1e2328, #433d2b);
+    cursor: pointer;
+    transition: 0.1s;
+  }
+  
+.button:active {
+    text-shadow: none;
+    box-shadow: none;
+    color: #cdbe9130;
+  }
+
+.listTeam {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.team{
+    display: flex;
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+}
+
+.team--text {
+    flex: 1;
+    flex-direction: row;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.team--title{
+    
+}
+
+.team--lane{
+}
+
+.team--icon{
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}

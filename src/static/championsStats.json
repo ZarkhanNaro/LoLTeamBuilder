@@ -1,0 +1,96 @@
+{
+    "type":"stats",
+    "version":"12.9.1",
+    "champions": [
+        {
+            "name": "Ahri",
+            "icon": "Ahri.png",
+            "damage": 80,
+            "damageType": "AP",
+            "cc": 50,
+            "engage": true,
+            "disengage": true
+        },
+        {
+            "name": "Amumu",
+            "icon": "Amumu.png",
+            "damage": 80,
+            "damageType": "AP",
+            "cc": 50,
+            "engage": true,
+            "disengage": true
+        },
+        {
+            "name": "Chogath",
+            "icon": "Chogath.png",
+            "damage": 80,
+            "damageType": "AP",
+            "cc": 50,
+            "engage": true,
+            "disengage": true
+        },
+        {
+            "name": "Diana",
+            "icon": "Diana.png",
+            "damage": 80,
+            "damageType": "AP",
+            "cc": 50,
+            "engage": true,
+            "disengage": true
+        },
+        {
+            "name": "Fiora",
+            "icon": "Fiora.png",
+            "damage": 80,
+            "damageType": "AP",
+            "cc": 50,
+            "engage": true,
+            "disengage": true
+        },
+        {
+            "name": "Lucian",
+            "icon": "Lucian.png",
+            "damage": 80,
+            "damageType": "AP",
+            "cc": 50,
+            "engage": true,
+            "disengage": true
+        },
+        {
+            "name": "Soraka",
+            "icon": "Soraka.png",
+            "damage": 80,
+            "damageType": "AP",
+            "cc": 50,
+            "engage": true,
+            "disengage": true
+        },
+        {
+            "name": "Thresh",
+            "icon": "Thresh.png",
+            "damage": 80,
+            "damageType": "AP",
+            "cc": 50,
+            "engage": true,
+            "disengage": true
+        },
+        {
+            "name": "Vayne",
+            "icon": "Vayne.png",
+            "damage": 80,
+            "damageType": "AP",
+            "cc": 50,
+            "engage": true,
+            "disengage": true
+        },
+        {
+            "name": "Zed",
+            "icon": "Zed.png",
+            "damage": 80,
+            "damageType": "AP",
+            "cc": 50,
+            "engage": true,
+            "disengage": true
+        }
+    ]
+}
