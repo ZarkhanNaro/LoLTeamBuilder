@@ -68,7 +68,7 @@ const TeamField:React.FC<Props> = ({team, setTeam, handleAddTeam}:Props) => {
                             ref={provided.innerRef}
                             {...provided.droppableProps}
                         >   
-                            <img src="images/roles/TOP.png" alt="" ></img>
+                            <img src="images/roles/TOP.png" alt="" className='teamfield__roleimage'></img>
                             <div className="teamfield__champion">
                                 <ChampionField champion={team.top} role={0}/>
                             </div>
@@ -85,7 +85,7 @@ const TeamField:React.FC<Props> = ({team, setTeam, handleAddTeam}:Props) => {
                             ref={provided.innerRef}
                             {...provided.droppableProps}
                         >
-                            <img src="images/roles/JUNGLE.png" alt="" ></img>
+                            <img src="images/roles/JUNGLE.png" alt="" className='teamfield__roleimage'></img>
                             <div className="teamfield__champion">
                                 <ChampionField champion={team.jungle} role={1}/>
                             </div>
@@ -101,7 +101,7 @@ const TeamField:React.FC<Props> = ({team, setTeam, handleAddTeam}:Props) => {
                             ref={provided.innerRef}
                             {...provided.droppableProps}
                         >
-                            <img src="images/roles/MIDDLE.png" alt="" ></img>
+                            <img src="images/roles/MIDDLE.png" alt="" className='teamfield__roleimage'></img>
                             <div className="teamfield__champion">
                                 <ChampionField champion={team.mid} role={2}/>
                             </div>
@@ -117,7 +117,7 @@ const TeamField:React.FC<Props> = ({team, setTeam, handleAddTeam}:Props) => {
                             ref={provided.innerRef}
                             {...provided.droppableProps}
                         >
-                            <img src="images/roles/ADC.png" alt="" ></img>
+                            <img src="images/roles/ADC.png" alt="" className='teamfield__roleimage'></img>
                             <div className="teamfield__champion">
                                 <ChampionField champion={team.adc} role={3}/>
                             </div>
@@ -133,7 +133,7 @@ const TeamField:React.FC<Props> = ({team, setTeam, handleAddTeam}:Props) => {
                             ref={provided.innerRef}
                             {...provided.droppableProps}
                         >
-                            <img src="images/roles/SUPPORT.png" alt="" ></img>
+                            <img src="images/roles/SUPPORT.png" alt="" className='teamfield__roleimage'></img>
                             <div className="teamfield__champion">
                                 <ChampionField champion={team.support} role={4}/>
                             </div>

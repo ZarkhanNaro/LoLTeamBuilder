@@ -4,7 +4,7 @@
     height: 50%;
     border-radius: 50px;
     padding: 20px 30px;
-    margin: 30px 20px;
+    margin: 15px 20px;
     font-size: 25px;
     border: none;
     transition: 0.2s;
@@ -45,6 +45,10 @@
     height: auto;
 }
 
+.teamfield__roleimage{
+    height: 40%;
+}
+
 .teamfield__champion{
     height: 100%;
     color: white;
@@ -55,7 +59,7 @@
     height: 50%;
     border-radius: 50px;
     padding: 20px 30px;
-    margin: 30px 20px;
+    margin: 15px 20px;
     font-size: 25px;
     color: white;
     border: none;
@@ -151,10 +155,22 @@
 }
 
 .team--title{
-    
+    display: inline-flex;
+    align-items: center;
 }
 
 .team--lane{
+    margin: 0px 10px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.team--setting {
+    display: inline-flex;
+    align-items: center;
 }
 
 .team--icon{

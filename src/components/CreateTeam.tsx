@@ -58,7 +58,6 @@ const CreateTeam: React.FC = () => {
   }
 
   const handleEditTeam = (id: number) => {
-    console.log("entering loop")
     let newTeam = structuredClone(teams.filter( teamOfLoop => teamOfLoop.id === id)[0])
     setTeam(newTeam)
     let championsToShow = structuredClone(championsStats.champions)
@@ -66,7 +65,6 @@ const CreateTeam: React.FC = () => {
     for(let champion of championsToShow){
       if( champion.name === newTeam.top.name || champion.name === newTeam.jungle.name ||champion.name === newTeam.mid.name || champion.name === newTeam.adc.name || champion.name === newTeam.support.name ){
         championsToShow.splice(i,1)
-        console.log("removing " + champion.name)
       }
       i++;
     }
@@ -75,7 +73,7 @@ const CreateTeam: React.FC = () => {
   }
 
   const handleSwapButton = () => {
-    if(showListTeam === true){
+    if(showListTeam){
       setTeam(structuredClone(emptyTeam))
       setChampions(structuredClone(championsStats.champions))
     }

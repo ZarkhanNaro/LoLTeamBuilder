@@ -51,97 +51,67 @@ const SingleTeam: React.FC<Props> = ({team, teams, setTeams, handleEditTeam}:Pro
             {
                 team.top.icon !== "" ? (
                     <div className='team--lane'>
-                        <div>
                             <img src="images/roles/TOP.png" alt="" width="30px" height="30px"></img>
-                        </div>
-                        <div>
                             <img src={"images/champions/" + team.top.icon} alt='' width="30px" height="30px"/>
-                        </div>
                     </div>
                 ): (
                     <div className='team--lane'>
-                        <div>
                             <img src="images/roles/TOP.png" alt="" width="30px" height="30px"></img>
-                        </div>
                     </div>
                 )
             }
             {
                 team.jungle.icon !== "" ? (
                     <div className='team--lane'>
-                        <div>
                             <img src="images/roles/JUNGLE.png" alt="" width="30px" height="30px"></img>
-                        </div>
-                        <div>
                             <img src={"images/champions/" + team.jungle.icon} alt='' width="30px" height="30px"/> 
-                        </div>
                     </div>
                 ): (
                     <span className='team--lane'>
-                        <div>
                             <img src="images/roles/JUNGLE.png" alt="" width="30px" height="30px"></img>
-                        </div>
                     </span>
                 )
             }
             {
                 team.mid.icon !== "" ? (
                     <span className='team--lane'>
-                        <div>
                             <img src="images/roles/MIDDLE.png" alt="" width="30px" height="30px"></img>
-                        </div>
-                        <div>
                             <img src={"images/champions/" + team.mid.icon} alt='' width="30px" height="30px"/> 
-                        </div>
                     </span>
                 ): (
                     <span className='team--lane'>
-                        <div>
                             <img src="images/roles/MIDDLE.png" alt="" width="30px" height="30px"></img>
-                        </div>
                     </span>
                 )
             }
             {
                 team.adc.icon !== "" ? (
                     <span className='team--lane'>
-                        <div>
                             <img src="images/roles/ADC.png" alt="" width="30px" height="30px"></img>
-                        </div>
-                        <div>
                             <img src={"images/champions/" + team.adc.icon} alt='' width="30px" height="30px"/> 
-                        </div>
                     </span>
                 ): (
                     <span className='team--lane'>
-                        <div>
-                            <img src="images/roles/ADC.png" alt="" width="30px" height="30px"></img>
-                        </div>
+                        <img src="images/roles/ADC.png" alt="" width="30px" height="30px"></img>
                     </span>
                 )
             }
             {
                 team.support.icon !== "" ? (
                     <span className='team--lane'>
-                        <div>
                             <img src="images/roles/SUPPORT.png" alt="" width="30px" height="30px"></img>
-                        </div>
-                        <div>
                             <img src={"images/champions/" + team.support.icon} alt='' width="30px" height="30px"/> 
-                        </div>
                     </span>
                 ): (
                     <span className='team--lane'>
-                        <div>
-                            <img src="images/roles/SUPPORT.png" alt="" width="30px" height="30px"></img>
-                        </div>
+                        <img src="images/roles/SUPPORT.png" alt="" width="30px" height="30px"></img>
                     </span>
                 )
             }
         </div>
 
       )}
-      <div>
+      <div className='team--setting'>
         <span
           className="team--icon"
           onClick={() => {
